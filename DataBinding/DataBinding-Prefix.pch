@@ -13,4 +13,11 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
 #endif
+#define AppDelegate (VLAppDelegate *)[[UIApplication sharedApplication] delegate]
+
+
+#define IPAD     UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define IPHONE     UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone
+#define IOS6 floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1
