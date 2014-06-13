@@ -1,0 +1,30 @@
+PODS:
+  - CocoaLumberjack (1.9.0):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.9.0)
+  - CocoaLumberjack/Extensions (1.9.0):
+    - CocoaLumberjack/Core
+  - DejalActivityView (1.2)
+  - jastor (0.2.1)
+  - NSLogger (1.2)
+  - VLDataBinding (0.0.1):
+    - DejalActivityView
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - jastor
+  - NSLogger
+  - VLDataBinding (from `https://github.com/Valensas/VLDataBinding.git`)
+
+EXTERNAL SOURCES:
+  VLDataBinding:
+    :git: https://github.com/Valensas/VLDataBinding.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
+  DejalActivityView: ef0970deefe891fefd57af27765ddb21a8265755
+  jastor: 38c8cd3670b362123d824ee48a3056dca2037857
+  NSLogger: c4df4b0208d724f244c05f1966b7402f14d7bf55
+  VLDataBinding: b78f381f984d114ec777c4e423e329a1ea51d366
+
+COCOAPODS: 0.33.1
